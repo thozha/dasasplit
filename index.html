@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>dasa</title>
+    </head>
+    <body>
+        <div>
+            <h2>ஜகன்னாத ஹோராவில் தேகத்தை மேலும் பிரிக்க</h2>
+            <table>
+                <tr><td>Start Date</td><td><input type="text" class="cbDate" id="startDate" name="startDate" /></td></tr>
+                <tr><td>End Date</td><td><input type="text" class="cbDate" id="endDate" name="endDate" /></td></tr>
+                <tr><td>Start Deha</td><td><select id="deha" name="deha">
+                        <option value="1">கேது</option>
+                        <option value="2">சுக்கிரன்</option>
+                        <option value="3">சூரியன்</option>
+                        <option value="4">சந்திரன்</option>
+                        <option value="5">செவ்வாய்</option>
+                        <option value="6">ராகு</option>
+                        <option value="7">குரு</option>
+                        <option value="8">சனி</option>
+                        <option value="9">புதன்</option>
+                     </select></td></tr>
+                <tr><td colspan="2"><input type="button" id="perform" value="Get Dasa" /></td></tr>
+                <tr>
+                    <td colspan="2">
+                        <div id="result"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+        <script type="text/javascript" src="scripts/jquery.min.js"></script>
+        <script type="text/javascript" src="scripts/moment.min.js"></script>
+        <script type="text/javascript" src="scripts/combodate.js"></script>
+        <script type="text/javascript" src="scripts/code.js"></script>
+    </body>
+</html>
